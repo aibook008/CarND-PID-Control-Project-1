@@ -31,7 +31,7 @@ class PID {
    */
   double TotalError();
 
- private:
+ public:
   /**
    * PID Errors
    */
@@ -45,6 +45,8 @@ class PID {
   double Kp;
   double Ki;
   double Kd;
+  //last error value
+ 
 };
 
 #endif // PID_H
